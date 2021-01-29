@@ -1,0 +1,25 @@
+ <head>
+ <script src="catalog/view/javascript/google-translate.js"></script>
+    <style type="text/css">
+    body { top: 0px !important; } /* Убираем отступ который выставляет скрипт */
+    .skiptranslate { display: none !important; } /* Скрываем гугловский навбар с выбором языка  */
+    </style>
+</head>
+<!-- body -->
+<body>
+<div id="google_translate_element"></div> <!-- Necessarily connect on TOP body -->
+<!--Translate -->
+                             <li class="translate_" style="padding: 7px 0px; position: absolute; right: 10px; top: 63px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; width: 40px; background: hsl(0deg 0% 100%/10%);">
+                                <a onclick="doGTranslate('ru|uk');" style="padding: 6px"> <!-- Translate from any lang on Ru-->
+                                    <img height="15" width="25"
+                                    alt="ua"
+                                    src="file path">
+                                </a>
+                                <a onclick="doGTranslate('ru|ru');"> <!-- Translate from any lang on Ru-->
+                                    <img height="15" width="25"
+                                    alt="ruru"
+                                    src="file path">
+                                </a>
+                            </li>
+                            <!-- end translate-->
+</body>
